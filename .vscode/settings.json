@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./rag-assistant/python-packages/Python312/site-packages"
+    ]
+}
