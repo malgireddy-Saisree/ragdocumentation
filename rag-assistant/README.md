@@ -479,3 +479,8 @@ Feedback is written to a `feedback_log.jsonl` file and kept in a module-level li
 - Azure OpenAI deployments are already created and the API key has quota available. The system does not handle quota-exceeded errors beyond a generic 500 response.
 - The `MAX_RETRY_ATTEMPTS=2` default is a reasonable balance between thoroughness and latency. Each retry adds roughly one LLM round-trip (rewrite) plus retrieval + grading.
 - File uploads are limited to 10 MB. Larger documents should be split offline first.
+
+
+These are the output images:
+<img width="1896" height="952" alt="Screenshot 2026-05-16 111319" src="https://github.com/user-attachments/assets/c4670672-5123-4a95-850a-9312266d388e" />
+<img width="1898" height="827" alt="Screenshot 2026-05-16 111333" src="https://github.com/user-attachments/assets/6f443438-bca8-4216-b330-4f1243ba45bd" />
